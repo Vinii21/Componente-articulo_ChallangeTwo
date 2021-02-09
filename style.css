@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.section-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: hsl(210, 46%, 95%);
+    
+    
+}
+.article-container {
+    margin: 40px 0;
+    width: 250px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.061);
+}
+
+.article-container .container-post-img {
+    height: 150px;
+    background-image: url(/images/drawers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+ .text-container {
+    margin: 30px;
+    font-family: 'Manrope', sans-serif;
+ }
+ .text-container .article-title {
+     font-weight: 700;
+     font-size: 1.4rem;
+     padding-bottom: 20px;
+ }
+ .text-container .article-text {
+     font-weight: 500;
+     font-size: 1rem;
+ }
+
+ .user-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+     font-family: 'Manrope', sans-serif;
+ }
+ .user-container .user-img {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     margin-right: 10px;
+}
+.user-container .user-name  {
+    font-weight: 700;
+    font-size: 1rem;
+}
+.user-container .user-date {
+    position: relative;
+    top: 10px;
+    right: 87px;
+    color: hsl(212, 23%, 69%);
+    padding-top: 5px;
+}
+
+.user-container .fondo_share-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.user-container .share-icon {
+    width: 10px;
+    height: 10px;
+}
+
+/* .padre {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+.agua {
+    
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+} */
