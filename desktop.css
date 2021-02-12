@@ -1,0 +1,37 @@
+.section-post {
+    width: 100vw;
+    height: 100vh;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: auto;
+    margin: 0;
+}
+
+.article-container .container-post-img {
+    width: 40%;
+    height: auto;
+    background-position: left;
+}
+
+.post-container {
+    width: 60%;
+    margin: 10px 20px;
+    padding: 15px;
+}
+.article-title {
+    margin-bottom: 10px;
+}
+
+.user-container {
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+.user-container .fondo_share-icon {
+    margin-left: 30px;
+}
+
